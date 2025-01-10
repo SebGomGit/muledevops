@@ -4,11 +4,7 @@
 
 	<groupId>89668565-73de-42a2-a076-1cd93f860c0f</groupId>
 	<artifactId>cloudetwo</artifactId>
-<<<<<<< HEAD
 	<version>1.0.11</version>
-=======
-	<version>1.0.10</version>
->>>>>>> f78cba39ee8cc24494ead5f0e4ef1f156c3ff8c0
 	<packaging>mule-application</packaging>
 
 	<name>cloudetwo</name>
