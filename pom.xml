@@ -7,7 +7,7 @@
 
 	<groupId>89668565-73de-42a2-a076-1cd93f860c0f</groupId>
 	<artifactId>cloudetwo</artifactId>
-	<version>1.0.9</version>
+	<version>1.0.10</version>
 	<packaging>mule-application</packaging>
 
 	<name>cloudetwo</name>
