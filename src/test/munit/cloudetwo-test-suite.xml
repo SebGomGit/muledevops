@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:munit="http://www.mulesoft.org/schema/mule/munit" xmlns:munit-tools="http://www.mulesoft.org/schema/mule/munit-tools"
+	xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xsi:schemaLocation="
+		http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+		http://www.mulesoft.org/schema/mule/munit http://www.mulesoft.org/schema/mule/munit/current/mule-munit.xsd
+		http://www.mulesoft.org/schema/mule/munit-tools  http://www.mulesoft.org/schema/mule/munit-tools/current/mule-munit-tools.xsd">
+	<munit:config name="cloudetwo-test-suite.xml" />
+	<munit:test name="cloudetwo-test-suite-cloudetwoFlowTest" doc:id="0ed2969f-b1b6-40d3-bf7a-db1b0fe3094b" description="Test">
+		<munit:execution >
+			<flow-ref doc:name="Flow-ref to cloudetwoFlow" doc:id="9ec35b43-ed5d-48bf-8102-2897646f14e2" name="cloudetwoFlow"/>
+		</munit:execution>
+		<munit:validation >
+			<munit-tools:assert doc:name="Assert expression" doc:id="2a70a064-1a58-4f8f-9569-c724e5486a1f" />
+		</munit:validation>
+	</munit:test>
+
+
+</mule>
