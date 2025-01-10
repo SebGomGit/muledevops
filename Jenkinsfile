@@ -3,15 +3,15 @@ pipeline{
 	
 	stages{ 
 	
-		stage('Build') { 
+		stage('build') { 
 			steps { 
-				bat 'mvn clean deploy' 
+				bat 'mvn clean -DskipTest package' 
 			} 
 		} 
 		
-		stage('test') { 
+		stage('publish exchange') { 
 			steps { 
-				bat 'mvn test' 
+				bat 'mvn clean deploy' 
 			} 
 		} 
 		
